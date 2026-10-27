@@ -1,0 +1,6 @@
+acquire T1 A
+acquire T2 B
+acquire T3 C
+wait T3 A
+wait T1 B
+wait T2 A

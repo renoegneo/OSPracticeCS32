@@ -1,0 +1,7 @@
+acquire T1 A
+acquire T2 B
+wait T1 B
+release T2 B
+acquire T1 B
+release T1 B
+release T1 A
